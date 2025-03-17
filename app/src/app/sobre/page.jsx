@@ -8,7 +8,6 @@ export default function Sobre() {
                 text-3xl">
                     Sobre
                 </h1>
-                <a href="/" className="text-blue-200 underline">Home</a>
             </div>
         </>
     )

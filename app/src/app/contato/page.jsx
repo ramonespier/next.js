@@ -9,7 +9,7 @@ export default function Contato() {
                 >
                     Contato
                 </h1>
-                <a href="/" className="text-blue-200 underline">Home</a>
+
             </div>
         </>
     )
