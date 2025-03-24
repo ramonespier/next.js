@@ -26,6 +26,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         {children}
+        {/* <Swiper /> */}
         <Footer />
       </body>
     </html>
