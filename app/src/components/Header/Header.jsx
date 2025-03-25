@@ -7,9 +7,14 @@ export default function Header() {
                 w-full
                 h-36
                 flex
-                banner
+                navbar
+                bg-linear-to-b
+                from-rose-900
+                to-background
                 "
             >
+
+                <span className="text-3xl flex items-center m-10">A7x.STATS</span>
                 <ul className="
                     w-full
                     flex

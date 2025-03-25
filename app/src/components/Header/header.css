@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 
-.banner {
-    background: url(/a7x_banner.jpg);
-    background-position: center;
+.navbar {
     font-family: 'Rubik Glitch', sans-serif;
 }
