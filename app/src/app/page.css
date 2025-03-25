@@ -1,21 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
 .albunsAvenged {
-    display: flex;
-    width: 60%;
-    height: 530px;
-  }
-  
-  .albunsAvenged img {
-    width: 0;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .3;
-    transition: .5s ease;
-    border-radius: 30px;
-    margin: 1%;
-  }
-  
-  .albunsAvenged img:hover{
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%);
-  }
+  display: flex;
+  width: 60%;
+  height: 530px;
+}
+
+.albunsAvenged img {
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .3;
+  transition: .5s ease;
+  border-radius: 30px;
+  margin: 1%;
+}
+
+.albunsAvenged img:hover {
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.album {
+  font-family: 'Rubik Glitch', sans-serif;
+}
+
+/* Transição para o container do álbum */
+.album {
+  opacity: 0; /* Começa invisível */
+  transform: translateY(10px); /* Desloca levemente para baixo */
+  transition: 
+    opacity 0.5s ease-out,
+    transform 0.5s ease-out;
+}
+
+.album.show {
+  opacity: 1; /* Torna visível */
+  transform: translateY(0); /* Volta à posição original */
+}
